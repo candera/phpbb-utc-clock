@@ -1,0 +1,12 @@
+#clock {
+    text-align: center;
+    color: yellow;
+}
+
+#clock .date, #clock .time {
+    display: inline;
+}
+
+#clock .date {
+    margin-right: 0.5em;
+}

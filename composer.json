@@ -1,0 +1,20 @@
+{
+    "name": "440th/utcclock",
+    "type": "phpbb-extension",
+    "description": "Show a UTC clock on the homepage",
+    "version": "0.1.0",
+    "license": "GPL-2.0",
+    "authors": [{
+	"name": "Tyrant"
+    }],
+    "require": {
+	"php": ">=5.3.3",
+	"composer/installers": "~1.0"
+    },
+    "extra": {
+	"display-name": "UTC Clock Extension",
+	"soft-require": {
+	    "phpbb/phpbb": ">=3.2"
+	}
+    }
+}
