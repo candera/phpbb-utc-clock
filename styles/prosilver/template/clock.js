@@ -20,7 +20,7 @@ function startTime() {
     h = checkTime(h);
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('clock').innerHTML = "<div class='date'>" + month + "-" + d + "</div>" + "<div class='time'>" + h + ":" + m + ":" + s + " UTC</div>";
+    document.getElementById('clock').innerHTML = "<div class='date'>" + month + "-" + d + "</div>" + "<div class='time'>" + h + m + "Z</div>";
     var t = setTimeout(function() {
         startTime()
     }, 500);

@@ -1,6 +1,8 @@
 #clock {
     text-align: center;
     color: yellow;
+    font-family: monospace;
+    font-size: 115%;
 }
 
 #clock .date, #clock .time {
